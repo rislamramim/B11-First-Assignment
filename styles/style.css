@@ -5,6 +5,9 @@
     font-weight: 400;
     font-style: normal;
 }
+body{
+background-color: #F5F5F5;
+}
 /* Nav styles */
 nav{
     display: flex;
@@ -37,8 +40,11 @@ nav{
 }
 
 /*=========== banner style ============*/
+.banner-start{
+
+}
 .banner-content{
-    display: flex;
+    display:block;
     justify-content: space-between;
     align-items: center;
     width: 1024px;
@@ -57,7 +63,7 @@ nav{
     color: rgb(14, 14, 14);
     font-family: Fira Sans;
     font-weight: 700;
-    font-size : 56px;
+    font-size : 60px;
     
 } 
 .banner-button{
@@ -241,8 +247,10 @@ nav{
     width: 1024px;
     display: flex;
     margin: 0 auto;
+    justify-content: space-around;
     border: 1px solid black;
     border-radius: 24px;
+    margin-top: 19px;
 }
 .box2-detail{
     font-size: 12px;
@@ -253,33 +261,133 @@ nav{
     font-weight: 700;}
 .box2-left{
     padding: 48px;}
+.box2-right{
+    border-radius: 24px;
+    padding: 12px;
+}
+
+
+
+
+
 
 .donate-section{
 text-align: center;
 width: 1024px;
 margin: 0 auto;
 
+.donate-section{
+    width: 1024px;
+    margin: 0 auto;
+}
+
+
+
+
+.donate-title{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+}
+.donate-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
 }
 .parent{
-width: 1024px;
-margin: 0 auto;
-/* padding: 25px; */
-display: flex;
-gap: 24px;
-justify-content: space-evenly;
-
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
+
 .child{
-border: 2px solid antiquewhite;
-box-sizing: border-box;
-border: 1px solid rgba(14, 14, 14, 0.15);
-border-radius: 16px;
-background: rgb(255, 255, 255);
-padding: 32px;
-width: 150px;
-height: 90px;
-
+    
+    font-family: Fira Sans;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 24px;
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    /* width: 201px;
+    height: 102px; */
 }
-.donate{
-    justify-content: center;
+.parent .money{
+
+    background:#198653;
+}
+.child:hover{
+    background-color: red;
+    color: white;
+}
+.donate-input input{
+width: 100%;
+border: none;
+border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+background: rgb(255, 255, 255);
+outline: none;
+padding: 16px 32px;
+margin: 25px 0px;
+}
+.donate-input input::placeholder{
+    color: rgba(14, 14, 14, 0.3);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+.donate-button-div{
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    border: none;
+    
+    
+}
+.donate-button{
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    background: rgb(0, 106, 80);
+    border-radius: 8px;
+   padding: 17px 34px;
+   border: 1px solid;
+}
+.donate-button:hover{
+    color:rgb(0, 106, 80);
+    background: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+
+.ending{
+    width: 1024px;
+    margin: 0 auto;
+    margin-top: 64px;  
+}
+.news-head{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+}
+.last-news{
+    font-family: Fira Sans;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    text-align: center;
+    gap: 24px;
+    padding: 65px 80px;
 }
