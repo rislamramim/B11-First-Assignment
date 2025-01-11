@@ -34,23 +34,26 @@ nav{
     font-size: 18px;
     padding:15px 30px;
     border-radius: 8px;
+    cursor: pointer;
 }
 .button00:hover{
-    background-color: ;
+    background-color: red; 
 }
 
 /*=========== banner style ============*/
-.banner-start{
 
-}
-.banner-content{
-    display:block;
+
+.banner-start{
+    display: flex;
     justify-content: space-between;
     align-items: center;
     width: 1024px;
     margin: 0 auto;
+    margin-bottom: 80px;
+    box-sizing: border-box;
     border-radius: 24px;
     background: rgb(198, 228, 214);
+    padding: 60px 80px;
 }
 .banner-title{
     font-family: Fira Sans;
@@ -63,46 +66,70 @@ nav{
     color: rgb(14, 14, 14);
     font-family: Fira Sans;
     font-weight: 700;
-    font-size : 60px;
-    
+    font-size : 44px;
+    width: 495px;   
 } 
 .banner-button{
     border: none;
     border-radius: 8px;
+    padding: 13px 27px;
     font-family: Fira Sans;
     font-size: 14px;
     font-weight: 600;
     color: rgb(255, 255, 255);
     background: rgb(0, 106, 80);
+    cursor: pointer;
 }
-#button0:hover{
+.banner-button:hover{
     background-color: red;
+    
+}
+.banner-profile-div{
+    width: 379px;
 }
 .banner-profile{
-    width: 379px;
-    /*======== pillar section start ========*/
+     width: 100%; 
 }
-.piller-title{
+
+ /*======== pillar section start ========*/
+.pillar-title-hed{
+    color: rgb(14, 14, 14);
     font-family: Fira Sans;
     font-size: 32px;
+    font-weight: 700;   
+}
+.pillar-title{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 16px;
     font-weight: 700;
+}
+.pillar-section{
+    padding: 24px;
+    
+    margin: 0 auto;
+    width: 1024px;
     
     
 }
 .pillar{
-    padding: 24px;
     box-sizing: border-box;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
     background: rgb(255, 255, 255);
-    
-    
+    padding: 19px;
 }
 .pillar-container{
     display: flex;
     gap: 24px;
     width: 1024px;
     margin: 0 auto; 
+}
+.pillar-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 12px;
+    font-weight: 400;
 }
 
 /*======== pillar section ends ========*/
