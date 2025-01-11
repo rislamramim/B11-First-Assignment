@@ -1,0 +1,285 @@
+
+
+.fira-sans-normal {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+/* Nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1024px;
+    margin: 0 auto;     
+}
+
+.nav-title{
+    font-weight: bold;
+    font-size: 32px;
+    color: #0E0E0E;
+}
+.nav-title-text{
+    color: red;
+    font-size: 50px;
+}
+.btn{
+    color: rgb(0, 106, 80);
+    background-color: #F5F5F5;
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-size: 18px;
+    padding:15px 30px;
+    border-radius: 8px;
+}
+.button00:hover{
+    background-color: ;
+}
+
+/*=========== banner style ============*/
+.banner-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1024px;
+    margin: 0 auto;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+}
+.banner-title{
+    font-family: Fira Sans;
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 19px;
+    font-weight: 500;
+    
+}   
+.banner-description{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-weight: 700;
+    font-size : 56px;
+    
+} 
+.banner-button{
+    border: none;
+    border-radius: 8px;
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    background: rgb(0, 106, 80);
+}
+#button0:hover{
+    background-color: red;
+}
+.banner-profile{
+    width: 379px;
+    /*======== pillar section start ========*/
+}
+.piller-title{
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    
+    
+}
+.pillar{
+    padding: 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    
+    
+}
+.pillar-container{
+    display: flex;
+    gap: 24px;
+    width: 1024px;
+    margin: 0 auto; 
+}
+
+/*======== pillar section ends ========*/
+
+
+/*======== vision section start ========*/
+
+.vision-title{
+    /* width: 1024px;
+    margin: 60px auto; */
+    /* font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700; */
+}
+
+
+.vision-detail{
+    font-family: Fira Sans;
+    font-size: 13px;
+    font-weight: 400;
+    width: 1024px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+   
+    
+}
+.vision-container{
+    display: flex;
+    gap: 24px;
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.banana{
+    background-color: rgba(84, 144, 245, 0.20);
+    padding: 32px;
+    border-radius: 16px;
+}
+.banana-btn{
+    font-weight: 700;
+    font-size: 16px;
+    padding:15px 30px;
+    border-radius: 8px; 
+    border: none;
+    color: white;
+    background-color:rgba(84, 144, 245, 1.00); 
+}
+#button1:hover{
+    background-color: rgb(255, 194, 57);
+}
+.mango{
+    background-color: rgba(198, 228, 214, 1.00);
+    padding: 32px;
+    border-radius: 16px;
+}
+.mango-btn{
+    font-weight: 700;
+    font-size: 16px;
+    padding:15px 30px;
+    border-radius: 8px; 
+    border: none;
+    color: white; 
+    background-color:rgba(9, 161, 92, 1.00) ;
+    margin-top: 20px;
+}
+#button2:hover{
+    background-color:orange ;
+}
+.apple{
+    background-color: rgba(247, 235, 207, 1.00);
+    padding: 32px;
+    border-radius: 16px;
+}
+.apple-btn{
+    font-weight: 700;
+    font-size: 16px;
+    padding:15px 30px;
+    border-radius: 8px; 
+    border: none;
+    color: white;
+    background-color:rgba(255, 194, 57, 1.00) ;
+}
+#button3:hover {
+    background-color: red;
+}
+.yunus{
+    width: 1024px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    margin-top: 25px; 
+    background-image: url(../images/quote-bg.png);
+    background-repeat: no-repeat;
+    padding: 38px 19px;
+}
+.article{
+    padding: 43px 19px;
+}
+.r-news{
+    width: 1024px;
+    margin: 0 auto;
+}
+.about-news{
+ 
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 12px;
+    font-weight: 400;
+}
+.box1{
+    font-family: Fira Sans;
+    width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 24px;
+    border: 1px solid black;
+    gap: 12px;
+   
+   
+}
+.box1-right{
+    padding: 48px;
+}
+.box1-left{
+   border-radius: 24px;
+   padding: 12px;
+}
+.box1-detail{
+    font-size: 12px;
+    font-weight: 400;
+}
+.box1-title{
+    font-size: 25px;
+    font-weight: 700;
+}
+.box2{
+    font-family: Fira Sans;
+    width: 1024px;
+    display: flex;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 24px;
+}
+.box2-detail{
+    font-size: 12px;
+    font-weight: 400;
+}
+.box2-title{
+    font-size: 25px;
+    font-weight: 700;}
+.box2-left{
+    padding: 48px;}
+
+.donate-section{
+text-align: center;
+width: 1024px;
+margin: 0 auto;
+
+}
+.parent{
+width: 1024px;
+margin: 0 auto;
+/* padding: 25px; */
+display: flex;
+gap: 24px;
+justify-content: space-evenly;
+
+}
+.child{
+border: 2px solid antiquewhite;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background: rgb(255, 255, 255);
+padding: 32px;
+width: 150px;
+height: 90px;
+
+}
+.donate{
+    justify-content: center;
+}
