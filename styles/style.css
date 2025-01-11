@@ -138,11 +138,11 @@ nav{
 /*======== vision section start ========*/
 
 .vision-title{
-    /* width: 1024px;
-    margin: 60px auto; */
-    /* font-family: Fira Sans;
+    width: 1024px;
+    margin: 0 auto;
+    font-family: Fira Sans;
     font-size: 32px;
-    font-weight: 700; */
+    font-weight: 700;
 }
 
 
@@ -158,9 +158,11 @@ nav{
 }
 .vision-container{
     display: flex;
-    gap: 24px;
-    width: 1024px;
-    margin: 0 auto;
+    /* gap: 24px; */
+    justify-content: space-between;
+    align-items: center;
+    /* width: 1024px; */
+    /* margin: 0 auto; */
 }
 
 .banana{
